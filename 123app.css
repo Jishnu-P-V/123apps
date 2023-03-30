@@ -1,0 +1,589 @@
+
+@font-face {
+    font-family: rubic;
+    src: url(/fonts/Rubik-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: rubic;
+}
+
+
+
+.navbar{
+    width: 100%;
+    height: 51px;
+    background-color: black;
+    padding: 0px 30px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.navbar .logo #img1{
+    height: 18px;
+    margin-bottom: 15px;
+}
+
+.navbar  #img2{
+    height: 50px;
+    cursor: pointer;
+   
+}
+.navbar .cont1{
+    color: #fff;
+    margin-left: -470px;
+    
+}
+.navbar .cont1 ul{
+    display: flex;
+    /* padding-left: 890px 20px; */
+    justify-content: end;
+
+}
+.navbar .cont1 ul li {
+    list-style: none;
+    padding: 18px 17px;
+    font-size: 13px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.navbar .cont1 ul li:hover{
+    /* color: #ffee55; */
+    background-color: #212121;
+}
+.navbar .cont1  #a1
+{
+    /* margin-top:1px ; */
+    margin-bottom: -5px;
+}
+
+.right1 {
+color: #fff;
+display: flex;
+padding: 0px 30px;
+cursor: pointer;
+  
+
+}
+.right1 .text{
+    font-size: 13px;
+    font-weight: 100;
+    /* padding-right: 5px; */
+    margin-top: 5px;
+
+}
+.buttons{
+    padding-left: 5px;
+}
+
+
+.buttons .new{
+    background-color: rgb(254, 228, 33);
+    border-width: 0;
+    border-radius: 2px;
+
+}
+.buttons .login{
+    background-color: black;
+    color: #fff;
+    border-style: none;
+    border: solid #fff;
+    border-width:.1px;
+    border-radius: 3px;
+    padding: 2px 5px;
+    margin-left: 5px;
+}
+
+/* ..........home.......... */
+
+.home{
+
+    /* background-color: blueviolet;3 */
+    /* height: 900px; */
+    width: 1050px;
+    margin-left: 250px;
+}
+
+.mainhead h1{
+    font-size: 54px;
+    font-weight: 700;
+    
+}
+
+.home p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.mainhead {
+    border-bottom: dashed gray;
+    border-width: .1px;
+    padding: 50px 0px;
+   
+}
+
+
+/* ............videotools..... */
+
+.video-tool{
+
+    /* padding-top: 80px; */
+    margin-top: 80px;
+   
+}
+
+.video-tool .head h1{
+
+padding-bottom: 40px;
+
+}
+
+.grid-video{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4,1fr);
+    width: 1000px;
+    height: 900px;
+    grid-gap: 30px;
+    
+}
+
+.grid-video div{
+    background-color: #f7f9fa;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size:70%;
+    background-position: 30px 10px;   
+}
+.grid-video div:hover{
+    background-color: #ffee55;
+}
+.grid-video div p{
+    padding-top: 150px;
+    font-size: 16px;
+    text-align: center;
+}
+.grid-video .card1
+{
+    background-image: url(/images/video-editor.svg);
+   
+}
+.grid-video .card2
+{
+    background-image: url(/images/screen-recorder.svg);
+   
+}
+.grid-video .card3
+{
+    background-image: url(/images/merge-video.svg);
+   
+}
+.grid-video .card4{
+    background-image: url(/images/add-audio-to-video.svg);
+   
+}.grid-video .card5{
+    background-image: url(/images/trim-video.svg);
+   
+}
+.grid-video .card6{
+    background-image: url(/images/add-image-video.svg);
+   
+}
+.grid-video .card7{
+    background-image: url(/images/add-text-to-video.svg);
+   
+}
+.grid-video .card8{
+    background-image: url(/images/remove-logo-from-video.svg);
+   
+}
+.grid-video .card9{
+    background-image: url(/images/crop-video.svg);
+   
+}
+.grid-video .card10{
+    background-image: url(/images//rotate-video.svg);
+   
+}
+
+.grid-video .card11{
+    background-image: url(/images/flip-video.svg);
+   
+}
+.grid-video .card12{
+    background-image: url(/images/resize-video.svg);
+   
+}
+
+.grid-video .card13{
+    background-image: url(/images/loop-video.svg);
+   
+}
+.grid-video .card14{
+    background-image: url(/images/change-volume-video-tool.svg);
+   
+}
+
+.grid-video .card15{
+    background-image: url(/images/change-video-speed.svg);
+   
+}.grid-video .card16{
+    background-image: url(/images/stabilize-video.svg);
+   
+}
+.grid-video .card17{
+    background-image: url(/images/Vidro-recorder.svg);
+   
+}
+/* ..........audio-tools...  */
+
+.audio-tool .head h1{
+
+    padding-top: 100px;
+    padding-bottom: 40px;
+    
+    }
+    
+    .grid-audio{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(3,1fr);
+        width: 1000px;
+        height: 690px;
+        grid-gap: 30px;
+        
+    }
+
+    .grid-audio div{
+        background-color: #f7f9fa;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        background-size:70%;
+        background-position: 30px 10px;   
+    }
+
+.grid-audio div:hover{
+    background-color: #ffee55;
+}
+.grid-audio div p{
+    padding-top: 150px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.grid-audio .card1
+{
+    background-image: url(/images/trim-audio.svg);
+   
+}
+.grid-audio .card2
+{
+    background-image: url(/images/change-volume.svg);
+   
+}
+.grid-audio .card3
+{
+    background-image: url(/images/Change-speed.svg);
+   
+}
+.grid-audio .card4
+{
+    background-image: url(/images/Change-pitch.svg);
+   
+}
+.grid-audio .card5
+{
+    background-image: url(/images/Equalizer.svg);
+   
+}
+.grid-audio .card6
+{
+    background-image: url(/images/Reverse-audio.svg);
+   
+}
+.grid-audio .card7
+{
+    background-image: url(/images/voice-recorder.svg);
+   
+}
+.grid-audio .card8
+{
+    background-image: url(/images/audio-jioner.svg);
+   
+}
+
+
+
+ /* ........pdf-tool...... */
+
+
+
+.pdf-tool .head h1{
+
+    margin-top: -100px;
+    padding-bottom: 40px;
+    
+    }
+    
+    .grid-pdf{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(4,1fr);
+        width: 1000px;
+        height: 900px;
+        grid-gap: 30px;
+        
+    }
+
+    .grid-pdf div{
+        background-color: #f7f9fa;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        background-size:70%;
+        background-position: 30px 10px;   
+    }
+
+.grid-pdf div:hover{
+    background-color: #ffee55;
+}
+.grid-pdf div p{
+    padding-top: 150px;
+    font-size: 16px;
+    text-align: center;
+}
+.grid-pdf .card1
+{
+    background-image: url(/images/split.svg);
+   
+}
+.grid-pdf .card2
+{
+    background-image: url(/images/merge.svg);
+   
+}
+.grid-pdf .card3
+{
+    background-image: url(/images/compress.svg);
+   
+}
+.grid-pdf .card4
+{
+    background-image: url(/images/unlock.svg);
+   
+}
+.grid-pdf .card5
+{
+    background-image: url(/images/Protect.svg);
+   
+}
+.grid-pdf .card6
+{
+    background-image: url(/images/rotate.svg);
+   
+}
+.grid-pdf .card7
+{
+    background-image: url(/images/Add-page-no.svg);
+   
+}
+.grid-pdf .card8
+{
+    background-image: url(/images/pdf-word.svg);
+   
+}
+.grid-pdf .card9
+{
+    background-image: url(/images/pdf-excel.svg);
+   
+}
+.grid-pdf .card10
+{
+    background-image: url(/images/pdf-jpg.svg);
+   
+}
+.grid-pdf .card11
+{
+    background-image: url(/images/pdf-png.svg);
+   
+}
+.grid-pdf .card12
+{
+    background-image: url(/images/pdf-html.svg);
+   
+}
+.grid-pdf .card13
+{
+    background-image: url(/images/word-pdf.svg);
+   
+}
+.grid-pdf .card14
+{
+    background-image: url(/images/jpf-pdf.svg);
+   
+}
+.grid-pdf .card15
+{
+    background-image: url(/images/excel-pdf.svg);
+   
+}
+.grid-pdf .card16
+{
+    background-image: url(/images/ppt-pdf.svg);
+   
+}
+.grid-pdf .card17
+{
+    background-image: url(/images/png-pdf.svg);
+   
+}
+
+
+/* ...........converters........  */
+
+
+.converters .head h1{
+
+    margin-top: 100px;
+    padding-bottom: 40px;
+    
+    }
+    
+    .grid-converters{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(4,1fr);
+        width: 1000px;
+        height: 910px;
+        grid-gap: 30px;
+        
+    }
+
+    .grid-converters div{
+        background-color: #f7f9fa;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        background-size:70%;
+        background-position: 30px 10px;   
+    }
+
+.grid-converters div:hover{
+    background-color: #ffee55;
+}
+.grid-converters div p{
+    padding-top: 150px;
+    font-size: 16px;
+    text-align: center;
+}
+.grid-converters .card1
+{
+    background-image: url(/images/audio-converter.svg);
+   
+}
+.grid-converters .card2
+{
+    background-image: url(/images/Video-converter.svg);
+   
+}
+.grid-converters .card3
+{
+    background-image: url(/images/image-converter.svg);
+   
+}
+.grid-converters .card4
+{
+    background-image: url(/images/Document-converter.svg);
+   
+}
+.grid-converters .card5
+{
+    background-image: url(/images/Font-converter.svg);
+   
+}
+.grid-converters .card6
+{
+    background-image: url(/images/Archieve-converter.svg);
+   
+}
+.grid-converters .card7
+{
+    background-image: url(/images/Ebook-converter.svg);
+   
+}
+/* ..........utilities.........  */
+
+ .utilities .head {
+
+    margin-top: -350px;
+    padding-bottom: 40px;
+    
+    }
+    
+    .grid-utilities{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        grid-template-rows: repeat(1fr);
+        width: 176px;
+        height: 210px;
+        grid-gap: 30px;
+        /* background-color: aqua; */
+        
+    }
+
+    .grid-utilities div{
+        background-color: #f7f9fa;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        background-size:70%;
+        background-position: 30px 10px;   
+    }
+
+.grid-utilities div:hover{
+    background-color: #ffee55;
+}
+.grid-utilities div p{
+    padding-top: 150px;
+    font-size: 16px;
+    text-align: center;
+}
+.grid-utilities .card1
+{
+    background-image: url(/images/Archieve-extractor.svg);
+   
+}
+
+
+/* ..........footer.......  */
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #f7f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    
+   
+}
+
+.footer ul{
+    display: flex;
+    
+}
+.footer ul li{
+    list-style: none;
+    padding: 0px 10px;
+    font-size: 13px;
+    color: #b3b3b3;
+
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #333333;
+    font-weight: 100;
+    
+}
